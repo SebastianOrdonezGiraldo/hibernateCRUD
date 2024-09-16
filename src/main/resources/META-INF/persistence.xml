@@ -11,15 +11,15 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <!-- Definición de las clases de entidad -->
-        <class></class>
+        <class>entidades.Facultad</class>
 
         <!-- Propiedades de conexión a la base de datos -->
         <properties>
             <!-- JDBC Configuración de la base de datos -->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/cue?serverTimezone=UTC"/>
-            <property name="javax.persistence.jdbc.user" value="root"/>
-            <property name="javax.persistence.jdbc.password" value="Choklito2024"/>
+            <property name="javax.persistence.jdbc.user" value="Daniel"/>
+            <property name="javax.persistence.jdbc.password" value="2209"/>
 
             <!-- Hibernate Configuración específica -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
