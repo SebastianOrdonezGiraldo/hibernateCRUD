@@ -11,7 +11,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 
         <!-- Definición de las clases de entidad -->
-        <class>entidades.Facultad</class>
+        <class>entidades.Carrera</class>
 
         <!-- Propiedades de conexión a la base de datos -->
         <properties>
